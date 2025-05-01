@@ -8,12 +8,7 @@
   user-select: none;
 }
 
-:root {
-  --a: #000;
-  --b: #fff;
-}
-
 body {
-  background: var(--a);
-  color: var(--b);
+  background: #000;
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */

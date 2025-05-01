@@ -1,3 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+:host {
+  --a: #000;
+  --b: #fff;
+}
+
 body {
-  background: #900;
+  background: var(--a);
+  color: var(--b);
 }/*# sourceMappingURL=style.css.map */

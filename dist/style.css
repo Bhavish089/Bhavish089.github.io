@@ -30,8 +30,7 @@ body {
 header img#profilebg {
   height: 100vh;
   width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   position: fixed;
 }
 
@@ -90,4 +89,4 @@ section {
   left: 0;
   right: 0;
   height: 100vh;
-}/*# sourceMappingURL=style.css.map */
+}

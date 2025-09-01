@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Doto:wght@100..900&family=Major+Mono+Display&family=Offside&family=Pixelify+Sans:wght@400..700&family=Rubik+Dirt&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+}
+
+:root {
+    --primary: #fff;
+    --secondary: #111;
+
+    --pixel-font: 'Pixelify Sans', sans-serif;
+    --comfortaa-font: 'Comfortaa', cursive;
+    --doto-font: 'Doto', sans-serif;
+    --major-mono-display-font: 'Major Mono Display', monospace;
+    --offside-font: 'Offside', cursive;
+    --rubik-dirt-font: 'Rubik Dirt', sans-serif;
+}
+
+
+#social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+    margin-top: 5vh;
+    list-style: none
+}
+
+#social img {
+    height: 10vh;
+    width: 10vh;
+}
